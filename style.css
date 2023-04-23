@@ -7755,3 +7755,15 @@ section.comment-respond {
     margin-top: 50px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  #billboard .text-content .section-title strong span {
+    font-size: 0.6em;
+  }
+  .trading-status {
+    font-size: 1em;
+  }
+  #billboard .slogan {
+    font-size: 1em !important;
+  }
+}
