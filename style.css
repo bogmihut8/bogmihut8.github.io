@@ -764,6 +764,9 @@ abbr {
     -moz-column-gap: 0px;
     column-gap: 0px;
   }
+  #billboard .text-content .section-title strong span {
+    font-size: 1em;
+  }
 }
 .dropcap {
   float: left;
@@ -7023,10 +7026,6 @@ tfoot {
   #billboard {
     height: 655px;
   }
-  #header-wrap {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 22px 0;
-  }
   #billboard .text-content .section-title,
   .page-banner .text-content .section-title {
     font-size: 2em;
@@ -7041,7 +7040,7 @@ tfoot {
   }
   #billboard .container {
     background: rgba(0, 0, 0, 0.6);
-    margin-top: 118px;
+    margin-top: 0px;
     padding: 30px;
   }
   #billboard:before {
@@ -7727,4 +7726,32 @@ section.comment-respond {
 
 .down-arrow {
   animation: jumpInfinite 1.5s infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  #drinks-table {
+    font-size: 16px;
+  }
+
+  #drinks-table .row .danger-tag,
+  #drinks-table .row .success-tag {
+    font-size: 16px;
+  }
+
+  #drinks-table .row .badge {
+    width: 50px;
+  }
+
+  .drink-types {
+    flex-direction: column;
+  }
+
+  .drink-types > .btn {
+    width: 94%;
+    margin: 0 10px;
+  }
+
+  .slogan + .mt-150 {
+    margin-top: 50px;
+  }
 }
