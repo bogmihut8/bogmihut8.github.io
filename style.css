@@ -303,7 +303,7 @@ a:hover {
 .light a:hover,
 .light a:active,
 .light a:focus {
-  color: #d3a153;
+  color: #01b73c;
 }
 .light b,
 .light strong {
@@ -6987,7 +6987,7 @@ tfoot {
   padding: 5px;
 }
 .social-block .social-icon a:hover {
-  color: #d3a153;
+  color: #01b73c;
   text-decoration: none;
 }
 
